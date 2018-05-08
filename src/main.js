@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
-import AppCars from './components/AppCars.vue'
+import AppCars from './components/AppCars'
+
 
 Vue.config.productionTip = false
 
