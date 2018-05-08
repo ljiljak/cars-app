@@ -8,11 +8,13 @@
 
 <script>
 import NavBar from './components/NavBar.vue'
+import AddCar from './pages/AddCar.vue'
 
 export default {
   name: 'app',
   components: {
-    NavBar
+    NavBar,
+    AddCar
   }
 }
 </script>

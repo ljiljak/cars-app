@@ -1,8 +1,9 @@
 <template>
 	<div>
 		<ul>
-		 <li v-for="(car, key) in cars" :key="car.id"> 
-		 {{car.brand}} {{ car.model }} </li>
+		 	<li v-for="(car, key) in cars" :key="car.id"> 
+		 	{{car.brand}} {{ car.model }} </li>
+		 	
         </ul>
 
 	</div>
